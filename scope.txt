@@ -1,0 +1,40 @@
+Agenda
+Technology:
+1. JavaScript or TypeScript
+2. Atleast sound knowledge of RDBMS (MYSQL, MSSQL, SQL SERVER, ORACLE, MARIA DB, POSTGRESQL)
+
+
+Softwares:
+Installed
+1. Nodejs
+2. Postman
+3. Vs code
+
+
+How Node.js works?
+1. Non-blocking I/O
+2. Intrepreter
+3. Single thread
+4. A synchronous functions
+
+MVC PATTERN (MODEL, VIEW AND CONTROLLER)
+HOW MVC PATTERN WORKS
+
+SIMPLE API
+
+STEPS
+1. run command npm init --y (create package.json file)
+2. npm i express (create node_modules and package-lock)
+3. to start server : nodemon server.js
+4. app.listen is used to tell in which port our server runs
+
+GET ( TO RETREIVE/FETCH DATA)
+POST ( TO INSERT DATA)
+DELETE ( TO DELETE DATA)
+PUT OR PATCH (TO UPDATE DATA) NO DIFF EITHER USE PUT OR PATCH
+
+response : jo server user ko send kre
+request: jo user server ko send kre
+
+task 01:
+create 2 apis bnani hy with custom message 
