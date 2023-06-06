@@ -1,7 +1,8 @@
 const express=require('express');
 const userRouter=express.Router();
-const {createUser}=require('../controller/user')
+const {createUser,fetchData}=require('../controller/user')
 
-userRouter.get('/api/demo',createUser)
+userRouter.post('/api/createUser',createUser)
+userRouter.get('/api/fetchData',fetchData)
 
 module.exports=userRouter

@@ -37,4 +37,12 @@ response : jo server user ko send kre
 request: jo user server ko send kre
 
 task 01:
-create 2 apis bnani hy with custom message 
+create 2 apis bnani hy with custom message (completed )
+
+1. Insert aur fetch API
+
+create MODEL
+model may ye btatay hay k kia kia table hogay aur kon kon se columns hogay
+
+TASK 02:
+PRODUCT CREATE AUR FETCH API
