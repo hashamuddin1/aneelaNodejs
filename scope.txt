@@ -46,3 +46,9 @@ model may ye btatay hay k kia kia table hogay aur kon kon se columns hogay
 
 TASK 02:
 PRODUCT CREATE AUR FETCH API
+
+
+DELETE
+UPDATE
+
+CRUD APIs
