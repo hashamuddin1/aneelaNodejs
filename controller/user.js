@@ -34,13 +34,23 @@ const deleteUser = async (req, res) => {
 const updateUser = async (req, res) => {
   try {
     const updateUser = await User.findOneAndUpdate(
-      { _id: new ObjectId(req.query.userId) },//kisko update krna hy
-      req.body,//kia update krna hy
-      { new: true }//
+      { _id: new ObjectId(req.query.userId) }, //kisko update krna hy
+      req.body, //kia update krna hy
+      { new: true } //
     );
     return res.send({ message: "User has been updated", data: updateUser });
   } catch (e) {
     console.log(e);
   }
 };
-module.exports = { createUser, fetchData, deleteUser,updateUser };
+
+const fetchSpecificData = async (req, res) => {
+  try {
+    const fetchData = await User.find({ firstName: req.body.firstName });
+    return res.send({ message: "User fetch", data: fetchData });
+  } catch (e) {
+    console.log(e);
+    return res.send(e);
+  }
+};
+module.exports = { createUser, fetchData, deleteUser, updateUser,fetchSpecificData };
